@@ -1,7 +1,6 @@
 function quit()
 {
-    window.close();
-    console.log("Failed to close page.");
+    window.location = "gamepage.html";
 }
 
 function Start()
